@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* Ganti url di bawah dengan path gambar background Anda */
+  background: #ff0000ff;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-choice {
+  background: rgba(0,0,0,0.7); /* hitam transparan */
+  border-radius: 16px;
+  box-shadow: 0 2px 12px #0005;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.login-choice h2 {
+  margin-bottom: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.login-choice .btn {
+  width: 220px;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+}

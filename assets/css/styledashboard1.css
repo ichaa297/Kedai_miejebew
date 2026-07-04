@@ -1,0 +1,40 @@
+body{
+    background:#000000;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width:100%;
+    min-height:100vh;
+    margin:0;
+    border:none;
+    background:white;
+}
+
+.navbar-custom{
+    background:#f20000;
+}
+
+.sidebar{
+    min-height:calc(100vh - 56px);
+    border-right:1px solid #ddd;
+}
+
+.sidebar .active{
+    background:#0d6efd;
+    color:white;
+    border-color:#0d6efd;
+}
+
+.content{
+    padding:25px;
+}
+
+.footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:12px;
+    margin-top:25px;
+}
